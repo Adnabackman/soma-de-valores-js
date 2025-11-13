@@ -30,4 +30,5 @@ function limparCampos(){
     resultado.value = ""
 
     n1.focus()
+
 }
