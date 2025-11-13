@@ -1,0 +1,47 @@
+body{
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    text-shadow: 5px 5px 5px darkmagenta;
+}
+section{
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: thistle;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
